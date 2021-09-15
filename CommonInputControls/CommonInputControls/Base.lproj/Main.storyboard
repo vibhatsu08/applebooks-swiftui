@@ -24,9 +24,6 @@
                                 <state key="normal" title="Button">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
-                                <connections>
-                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="meh-4t-keq"/>
-                                </connections>
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" preferredStyle="sliding" translatesAutoresizingMaskIntoConstraints="NO" id="5fP-Is-d7M">
                                 <rect key="frame" x="172" y="239" width="49" height="31"/>
@@ -42,12 +39,35 @@
                                     <action selector="sliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="hIj-9c-gWy"/>
                                 </connections>
                             </slider>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ykw-aj-B3e">
+                                <rect key="frame" x="147" y="380" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="keyboardReturnKeyTapped:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="OpK-m1-Zox"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="ZCh-y0-z4V" appends="YES" id="FPW-im-Je7"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="button" destination="kJK-Ps-ZV5" id="c8a-7l-5WE"/>
+                        <outlet property="slider" destination="amm-8v-g31" id="Xel-wx-q2C"/>
+                        <outlet property="toggle" destination="5fP-Is-d7M" id="KKd-7N-QIG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="ZCh-y0-z4V">
+                    <connections>
+                        <action selector="respondToTapGesture:" destination="BYZ-38-t0r" id="Bti-ev-Kzn"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="33.846153846153847" y="93.838862559241704"/>
         </scene>
