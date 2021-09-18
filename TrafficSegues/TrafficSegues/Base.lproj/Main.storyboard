@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KGt-gp-qMT">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -34,21 +34,22 @@
                             <constraint firstItem="taf-8k-fpG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aMy-nS-xDP"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="dEq-Qb-Yg0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="35" y="94"/>
+            <point key="canvasLocation" x="963.07692307692309" y="93.838862559241704"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="PqY-a7-hg3">
             <objects>
                 <viewController id="K8w-i6-lEM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="obP-GO-8f9">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAJ-QG-YQp">
-                                <rect key="frame" x="159" y="374" width="72" height="42"/>
+                                <rect key="frame" x="159" y="401" width="72" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -69,18 +70,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qD5-Mt-DhW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="728" y="94"/>
+            <point key="canvasLocation" x="1656.9230769230769" y="93.838862559241704"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="d6Y-0g-y3i">
             <objects>
                 <viewController id="lr6-yQ-TnA" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tTa-WI-V3e">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3xq-Ng-XAe">
-                                <rect key="frame" x="152.66666666666666" y="374" width="85" height="42"/>
+                                <rect key="frame" x="152.66666666666666" y="401" width="85" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Dismiss">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -102,7 +103,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fwb-lN-jgd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="x8q-KR-pcB" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1420" y="94"/>
+            <point key="canvasLocation" x="2349.2307692307691" y="93.838862559241704"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="otW-nc-cZQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KGt-gp-qMT" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gAt-cY-Mbe">
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="NK6-kz-rlO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JFJ-V6-VMx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33.846153846153847" y="93.838862559241704"/>
         </scene>
     </scenes>
     <resources>
