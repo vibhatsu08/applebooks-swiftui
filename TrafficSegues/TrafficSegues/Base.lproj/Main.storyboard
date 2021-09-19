@@ -26,6 +26,12 @@
                                     <segue destination="K8w-i6-lEM" kind="show" id="Bcx-LS-1PY"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x83-TG-Jbc">
+                                <rect key="frame" x="137" y="338" width="116" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemRedColor"/>
@@ -34,7 +40,10 @@
                             <constraint firstItem="taf-8k-fpG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aMy-nS-xDP"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Red" id="dEq-Qb-Yg0"/>
+                    <navigationItem key="navigationItem" title="Red" largeTitleDisplayMode="always" id="dEq-Qb-Yg0"/>
+                    <connections>
+                        <outlet property="textField" destination="x83-TG-Jbc" id="pF0-Rq-Ejt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -66,7 +75,7 @@
                             <constraint firstItem="fAJ-QG-YQp" firstAttribute="centerX" secondItem="obP-GO-8f9" secondAttribute="centerX" id="raG-cA-wf1"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Yellow" id="UJB-sx-v8W"/>
+                    <navigationItem key="navigationItem" title="Yellow" largeTitleDisplayMode="always" id="UJB-sx-v8W"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qD5-Mt-DhW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -98,7 +107,7 @@
                             <constraint firstItem="3xq-Ng-XAe" firstAttribute="centerY" secondItem="tTa-WI-V3e" secondAttribute="centerY" id="akA-Uy-aPT"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Green" id="U6Z-kH-4Vu">
+                    <navigationItem key="navigationItem" title="Green" largeTitleDisplayMode="always" id="U6Z-kH-4Vu">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="FkC-YG-RzH"/>
                     </navigationItem>
                 </viewController>
