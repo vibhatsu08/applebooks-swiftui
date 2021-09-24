@@ -27,6 +27,14 @@ class QuestionViewController: UIViewController {
     @IBOutlet var rangedLabel1: UILabel!
     @IBOutlet var rangedLabel2: UILabel!
     
+    
+    @IBOutlet var multiSwitch1: UISwitch!
+    @IBOutlet var multiSwitch2: UISwitch!
+    @IBOutlet var multiSwitch3: UISwitch!
+    @IBOutlet var multiSwitch4: UISwitch!
+    
+    @IBOutlet var rangedSlider: UISlider!
+    
     @IBOutlet var questionProgressView: UIProgressView!
     
     
@@ -90,6 +98,39 @@ class QuestionViewController: UIViewController {
         }
         
         nextQuestion()
+    }
+
+    @IBAction func multipleAnswerButtonPressed() {
+        let currentAnswers = questions[questionIndex].answers
+        
+        if multiSwitch1.isOn{
+            answersChosen.append(currentAnswers[0])
+        }
+        if multiSwitch2.isOn{
+            answersChosen.append(currentAnswers[1])
+        }
+        if multiSwitch3.isOn{
+            answersChosen.append(currentAnswers[2])
+        }
+        if multiSwitch4.isOn{
+            answersChosen.append(currentAnswers[3])
+        }
+        
+        nextQuestion()
+        
+    }
+    
+    @IBAction func rangedAnswerButtonPressed() {
+        let currentAnswer = questions[questionIndex].answers
+        let index = Int(round(rangedSlider.value * Float(currentAnswer.count - 1)))
+        
+        answersChosen.append(currentAnswer[index])
+        
+        nextQuestion()
+    }
+    
+    func nextQuestion(){
+        
     }
     
     func updateUI(){

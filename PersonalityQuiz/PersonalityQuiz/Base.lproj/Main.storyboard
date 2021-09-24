@@ -193,6 +193,9 @@
                                         <rect key="frame" x="0.0" y="204" width="350" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Submit answer"/>
+                                        <connections>
+                                            <action selector="multipleAnswerButtonPressed:" destination="qF5-he-VTi" eventType="touchUpInside" id="tnS-TR-rwL"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -201,6 +204,9 @@
                                 <subviews>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="dUz-pJ-9at">
                                         <rect key="frame" x="-2" y="0.0" width="354" height="31"/>
+                                        <connections>
+                                            <action selector="rangedAnswerButtonPressed:" destination="qF5-he-VTi" eventType="valueChanged" id="C4b-Fp-fOw"/>
+                                        </connections>
                                     </slider>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="Aqn-D0-hhQ">
                                         <rect key="frame" x="0.0" y="50" width="350" height="20.333333333333329"/>
@@ -262,11 +268,16 @@
                         <outlet property="multiLabel2" destination="0qs-Xd-Xov" id="jU5-jB-QFB"/>
                         <outlet property="multiLabel3" destination="g13-rg-mN9" id="giG-aq-OmB"/>
                         <outlet property="multiLabel4" destination="pUD-Bg-TOp" id="zvg-8p-ISE"/>
+                        <outlet property="multiSwitch1" destination="Mi5-sR-2yA" id="MxX-MM-J8z"/>
+                        <outlet property="multiSwitch2" destination="hD7-LY-mJW" id="81e-cn-1fO"/>
+                        <outlet property="multiSwitch3" destination="KKN-Er-3jT" id="tKW-JD-6Xj"/>
+                        <outlet property="multiSwitch4" destination="eDG-2e-MgA" id="GX6-8p-WuG"/>
                         <outlet property="multipleStackView" destination="PCA-nP-lry" id="AcZ-V7-NXz"/>
                         <outlet property="questionLabel" destination="trh-E7-14y" id="VgK-w7-qyv"/>
                         <outlet property="questionProgressView" destination="kaB-vn-8MU" id="OX0-2o-KC9"/>
                         <outlet property="rangedLabel1" destination="MT6-pc-SFV" id="uU6-g7-4OB"/>
                         <outlet property="rangedLabel2" destination="AAw-JF-lhQ" id="l7g-w7-enH"/>
+                        <outlet property="rangedSlider" destination="dUz-pJ-9at" id="2al-3k-Ldb"/>
                         <outlet property="rangedStackView" destination="tnJ-Qa-uk3" id="KIM-q3-eq5"/>
                         <outlet property="singleButton1" destination="sOg-ik-ma4" id="CKN-LP-OKe"/>
                         <outlet property="singleButton2" destination="dFY-7b-QiM" id="adD-o8-a55"/>
