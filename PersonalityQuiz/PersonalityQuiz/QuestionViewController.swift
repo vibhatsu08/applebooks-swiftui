@@ -99,7 +99,8 @@ class QuestionViewController: UIViewController {
         
         nextQuestion()
     }
-
+    
+    
     @IBAction func multipleAnswerButtonPressed() {
         let currentAnswers = questions[questionIndex].answers
         
@@ -117,8 +118,8 @@ class QuestionViewController: UIViewController {
         }
         
         nextQuestion()
-        
     }
+    
     
     @IBAction func rangedAnswerButtonPressed() {
         let currentAnswer = questions[questionIndex].answers
@@ -130,7 +131,14 @@ class QuestionViewController: UIViewController {
     }
     
     func nextQuestion(){
+        questionIndex += 1
         
+        if questionIndex < questions.count{
+            updateUI()
+        }
+        else{
+            performSegue(withIdentifier: "Results", sender: nil)
+        }
     }
     
     func updateUI(){

@@ -194,7 +194,8 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Submit answer"/>
                                         <connections>
-                                            <action selector="multipleAnswerButtonPressed:" destination="qF5-he-VTi" eventType="touchUpInside" id="tnS-TR-rwL"/>
+                                            <action selector="multipleAnswerButtonPressed" destination="qF5-he-VTi" eventType="touchUpInside" id="zcB-9S-Q4w"/>
+                                            <action selector="multipleAnswerButtonPressed:" destination="qF5-he-VTi" eventType="touchUpInside" id="ITI-HH-jvT"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -229,6 +230,10 @@
                                         <rect key="frame" x="0.0" y="90.333333333333371" width="350" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Submit answer"/>
+                                        <connections>
+                                            <action selector="rangedAnswerButtonPressed" destination="qF5-he-VTi" eventType="touchUpInside" id="X6f-ni-b2m"/>
+                                            <action selector="rangedAnswerButtonPressed:" destination="qF5-he-VTi" eventType="touchUpInside" id="Stq-sD-cmk"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -294,7 +299,7 @@
         <!--Results-->
         <scene sceneID="BlU-Q1-msM">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="woy-dl-v7C" customClass="ResultsViewViewController" customModule="PersonalityQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="woy-dl-v7C" customClass="ResultsViewController" customModule="PersonalityQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H5P-Lh-HSC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
