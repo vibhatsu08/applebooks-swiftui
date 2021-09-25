@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1459279D26FFABC100418176 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1459279C26FFABC100418176 /* ItemDetail.swift */; };
 		146B8AF126FF7EE40026F54B /* iDineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146B8AF026FF7EE40026F54B /* iDineApp.swift */; };
 		146B8AF326FF7EE40026F54B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146B8AF226FF7EE40026F54B /* ContentView.swift */; };
 		146B8AF526FF7EE50026F54B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146B8AF426FF7EE50026F54B /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1459279C26FFABC100418176 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		146B8AED26FF7EE40026F54B /* iDine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		146B8AF026FF7EE40026F54B /* iDineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineApp.swift; sourceTree = "<group>"; };
 		146B8AF226FF7EE40026F54B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			children = (
 				146B8AF026FF7EE40026F54B /* iDineApp.swift */,
 				146B8AF226FF7EE40026F54B /* ContentView.swift */,
+				1459279C26FFABC100418176 /* ItemDetail.swift */,
 				146B8B0826FF885B0026F54B /* ItemRow.swift */,
 				146B8AFE26FF7FA10026F54B /* Helper.swift */,
 				146B8B0026FF7FB40026F54B /* Menu.swift */,
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1459279D26FFABC100418176 /* ItemDetail.swift in Sources */,
 				146B8AF326FF7EE40026F54B /* ContentView.swift in Sources */,
 				146B8AF126FF7EE40026F54B /* iDineApp.swift in Sources */,
 				146B8B0326FF7FB40026F54B /* Order.swift in Sources */,
