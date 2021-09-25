@@ -15,6 +15,7 @@
 		146B8B0226FF7FB40026F54B /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146B8B0026FF7FB40026F54B /* Menu.swift */; };
 		146B8B0326FF7FB40026F54B /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146B8B0126FF7FB40026F54B /* Order.swift */; };
 		146B8B0526FF7FD20026F54B /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 146B8B0426FF7FD20026F54B /* menu.json */; };
+		146B8B0926FF885B0026F54B /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146B8B0826FF885B0026F54B /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		146B8B0026FF7FB40026F54B /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		146B8B0126FF7FB40026F54B /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		146B8B0426FF7FD20026F54B /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		146B8B0826FF885B0026F54B /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				146B8AF026FF7EE40026F54B /* iDineApp.swift */,
 				146B8AF226FF7EE40026F54B /* ContentView.swift */,
+				146B8B0826FF885B0026F54B /* ItemRow.swift */,
 				146B8AFE26FF7FA10026F54B /* Helper.swift */,
 				146B8B0026FF7FB40026F54B /* Menu.swift */,
 				146B8B0126FF7FB40026F54B /* Order.swift */,
@@ -153,6 +156,7 @@
 				146B8AF326FF7EE40026F54B /* ContentView.swift in Sources */,
 				146B8AF126FF7EE40026F54B /* iDineApp.swift in Sources */,
 				146B8B0326FF7FB40026F54B /* Order.swift in Sources */,
+				146B8B0926FF885B0026F54B /* ItemRow.swift in Sources */,
 				146B8B0226FF7FB40026F54B /* Menu.swift in Sources */,
 				146B8AFF26FF7FA10026F54B /* Helper.swift in Sources */,
 			);
