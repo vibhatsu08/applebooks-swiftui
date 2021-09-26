@@ -18,6 +18,7 @@
 		146B8B0526FF7FD20026F54B /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 146B8B0426FF7FD20026F54B /* menu.json */; };
 		146B8B0926FF885B0026F54B /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146B8B0826FF885B0026F54B /* ItemRow.swift */; };
 		1488DEBD27008B23009CA450 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1488DEBC27008B23009CA450 /* OrderView.swift */; };
+		1488DEBF27008E21009CA450 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1488DEBE27008E21009CA450 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		146B8B0426FF7FD20026F54B /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		146B8B0826FF885B0026F54B /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		1488DEBC27008B23009CA450 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		1488DEBE27008E21009CA450 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				146B8AF226FF7EE40026F54B /* ContentView.swift */,
 				1459279C26FFABC100418176 /* ItemDetail.swift */,
 				1488DEBC27008B23009CA450 /* OrderView.swift */,
+				1488DEBE27008E21009CA450 /* MainView.swift */,
 				146B8B0826FF885B0026F54B /* ItemRow.swift */,
 				146B8AFE26FF7FA10026F54B /* Helper.swift */,
 				146B8B0026FF7FB40026F54B /* Menu.swift */,
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1459279D26FFABC100418176 /* ItemDetail.swift in Sources */,
+				1488DEBF27008E21009CA450 /* MainView.swift in Sources */,
 				1488DEBD27008B23009CA450 /* OrderView.swift in Sources */,
 				146B8AF326FF7EE40026F54B /* ContentView.swift in Sources */,
 				146B8AF126FF7EE40026F54B /* iDineApp.swift in Sources */,
